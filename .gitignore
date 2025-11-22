@@ -34,3 +34,29 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# MCP Server
+mcp-server/dist/
+mcp-server/*.log
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/*.iml
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+
+# Sensitive
+*.keystore
+*.jks
+secrets.json
+
+# Generated
+*.apk
+*.aab
+*.so
+*.class
